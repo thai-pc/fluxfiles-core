@@ -1,0 +1,225 @@
+{
+    "_meta": {
+        "locale": "pt",
+        "name": "Português",
+        "direction": "ltr",
+        "version": "1.20.0",
+        "authors": [
+            "FluxFiles Team"
+        ]
+    },
+    "common": {
+        "save": "Salvar",
+        "cancel": "Cancelar",
+        "delete": "Excluir",
+        "rename": "Renomear",
+        "move": "Mover",
+        "copy": "Copiar",
+        "download": "Baixar",
+        "upload": "Enviar",
+        "search": "Pesquisar",
+        "close": "Fechar",
+        "confirm": "Confirmar",
+        "loading": "Carregando...",
+        "error": "Erro",
+        "success": "Pronto",
+        "yes": "Sim",
+        "no": "Não",
+        "or": "ou",
+        "clear": "Limpar",
+        "select_file": "Selecionar arquivo",
+        "select_folder": "Selecionar pasta",
+        "select_item": "Selecionar 1 item",
+        "select_items": "Selecionar {count} itens",
+        "root": "Raiz",
+        "selected": "selecionado(s)",
+        "refresh": "Atualizar"
+    },
+    "toolbar": {
+        "upload": "Enviar",
+        "new_folder": "Nova pasta",
+        "copy_url": "Copiar URL",
+        "grid_view": "Visualização em grade",
+        "list_view": "Visualização em lista",
+        "search_hint": "Pesquisar arquivos e pastas...",
+        "theme_toggle": "Alternar claro/escuro",
+        "language": "Idioma"
+    },
+    "sidebar": {
+        "all_files": "Todos os arquivos",
+        "recent": "Recentes",
+        "starred": "Favoritos",
+        "storage": "Armazenamento",
+        "folders": "Pastas",
+        "smart_filters": "Filtros inteligentes"
+    },
+    "quota": {
+        "storage": "Armazenamento"
+    },
+    "file": {
+        "select": "Selecionar",
+        "preview": "Visualizar",
+        "copy_url": "Copiar URL",
+        "presign_url": "URL pré-assinada",
+        "delete": "Excluir",
+        "move_to": "Mover para...",
+        "items": "{count} itens",
+        "items_selected": "{count} selecionados",
+        "size": "Tamanho",
+        "type": "Tipo",
+        "modified": "Modificado",
+        "disk": "Armazenamento",
+        "path": "Caminho",
+        "name": "Nome",
+        "no_files": "Nenhum arquivo nesta pasta",
+        "files": "Ficheiros",
+        "folder": "Pasta"
+    },
+    "upload": {
+        "drop_hint": "Arraste arquivos aqui ou clique para enviar",
+        "max_size": "Máx. {size} por arquivo",
+        "all_types": "Todos os tipos aceitos",
+        "uploading": "Enviando...",
+        "complete": "Envio concluído",
+        "error": "Falha no envio: {message}",
+        "duplicate": "O arquivo já existe. Usar mesmo assim?",
+        "quota_exceeded": "Cota de armazenamento excedida ({used} / {max})"
+    },
+    "metadata": {
+        "tab_info": "Info",
+        "tab_seo": "SEO",
+        "tab_ai": "Tags IA",
+        "tab_crop": "Recortar",
+        "title": "Título",
+        "title_hint": "Título personalizado, diferente do nome do arquivo",
+        "alt_text": "Texto alternativo",
+        "alt_hint": "Descreva a imagem para leitores de tela e SEO",
+        "caption": "Legenda",
+        "caption_hint": "Descrição curta exibida abaixo da imagem",
+        "saving": "Salvando...",
+        "saved": "Salvo"
+    },
+    "disk": {
+        "local": "Disco local",
+        "s3": "Amazon S3",
+        "r2": "Cloudflare R2"
+    },
+    "folder": {
+        "new": "Nova pasta",
+        "name_hint": "Nome da pasta:",
+        "create": "Criar pasta",
+        "created": "Pasta criada",
+        "create_title": "Criar nova pasta",
+        "create_desc": "Digite um nome para a nova pasta.",
+        "name_placeholder": "ex. Minha pasta",
+        "name_required": "Por favor, digite um nome para a pasta",
+        "invalid_chars": "O nome da pasta não pode conter: < > : \" / \\ | ? *"
+    },
+    "delete": {
+        "confirm_title": "Confirmação",
+        "confirm_file": "Excluir permanentemente \"{name}\"? Esta ação não pode ser desfeita.",
+        "confirm_bulk": "Excluir {count} item(ns)? Esta ação não pode ser desfeita.",
+        "deleted": "Excluído",
+        "confirm_folder": "Excluir permanentemente a pasta \"{name}\" e todos os arquivos dentro? Esta ação não pode ser desfeita.",
+        "confirm_bulk_folders": "Excluir permanentemente {count} item(ns) ({folders} pasta(s) com todo o conteúdo)? Esta ação não pode ser desfeita."
+    },
+    "search": {
+        "placeholder": "Pesquisar por nome, título, texto alternativo...",
+        "results": "{count} resultados para \"{query}\"",
+        "no_results": "Nenhum resultado para \"{query}\""
+    },
+    "variants": {
+        "title": "Tamanhos da imagem",
+        "original": "Original",
+        "thumb": "Miniatura",
+        "medium": "Médio",
+        "large": "Grande",
+        "selected": "{size} selecionado"
+    },
+    "error": {
+        "forbidden": "Você não tem permissão para realizar esta ação",
+        "not_found": "Não encontrado",
+        "quota_exceeded": "Cota de armazenamento excedida ({used} / {max})",
+        "upload_too_large": "Arquivo muito grande (máx. {max})",
+        "ext_not_allowed": "Tipo de arquivo .{ext} não é permitido",
+        "generic": "Algo deu errado. Por favor, tente novamente.",
+        "system_path": "Este arquivo não pode ser modificado",
+        "owner_only": "Você só pode modificar arquivos que enviou",
+        "permission_denied": "Você não tem permissão para esta ação",
+        "disk_denied": "Acesso negado a este disco",
+        "name_exists": "Um arquivo ou pasta com esse nome já existe",
+        "server_error": "Erro no servidor. Tente novamente.",
+        "upload_failed": "Falha no upload. Tente novamente",
+        "delete_failed": "Não foi possível excluir este arquivo",
+        "name_empty": "O nome não pode estar vazio",
+        "name_invalid": "O nome contém caracteres inválidos",
+        "name_same": "O novo nome é igual ao atual",
+        "rate_limited": "Muitas requisições. Aguarde um momento",
+        "no_file": "Nenhum arquivo selecionado para upload",
+        "ext_dangerous": "Este tipo de arquivo está bloqueado por segurança",
+        "ai_not_configured": "Marcação IA não configurada",
+        "ai_images_only": "Marcação IA disponível apenas para imagens",
+        "token_invalid": "Sessão expirada. Recarregue a página",
+        "token_missing": "Autenticação necessária",
+        "path_denied": "Acesso negado a este caminho",
+        "missing_param": "Informação obrigatória ausente",
+        "invalid_json": "Dados de requisição inválidos",
+        "origin_denied": "Acesso negado desta origem"
+    },
+    "presign": {
+        "title": "URL pré-assinada",
+        "expires": "Expira em",
+        "minutes": "{n} minutos",
+        "generate": "Gerar link",
+        "copied": "Link copiado!"
+    },
+    "audit": {
+        "uploaded": "{name} enviado",
+        "deleted": "{name} excluído",
+        "moved": "{from} movido para {to}",
+        "copied": "{from} copiado para {to}"
+    },
+    "bulk": {
+        "move": "Mover",
+        "copy_to_disk": "Copiar para disco",
+        "move_to_disk": "Mover para disco",
+        "download": "Baixar",
+        "move_to_folder": "Mover para pasta",
+        "destination": "Caminho de destino",
+        "quick_pick": "Acesso rápido:",
+        "target_disk": "Disco de destino",
+        "select_disk": "-- Selecionar disco --"
+    },
+    "crop": {
+        "free": "Livre",
+        "replace": "Substituir original",
+        "save_copy": "Salvar como cópia",
+        "saving": "Salvando...",
+        "failed": "Recorte falhou: {message}"
+    },
+    "ai": {
+        "generate": "Gerar tags com IA",
+        "analyzing": "Analisando...",
+        "tags": "Tags",
+        "no_tags": "Nenhuma tag de IA ainda. Clique em \"Gerar tags com IA\" para analisar esta imagem.",
+        "analyzing_image": "Analisando imagem com IA...",
+        "failed": "Falha na marcação por IA: {message}"
+    },
+    "copy": {
+        "copied": "URL copiada para a área de transferência"
+    },
+    "rename": {
+        "title": "Renomear",
+        "description": "Digite um novo nome.",
+        "placeholder": "Novo nome",
+        "success": "Renomeado",
+        "error_empty": "Por favor, insira um nome",
+        "error_chars": "O nome não pode conter: < > : \" / \\ | ? *"
+    },
+    "auth": {
+        "refreshing": "Atualizando sessão...",
+        "expired": "Sua sessão expirou. Por favor, recarregue ou autentique-se novamente.",
+        "retry": "Tentar novamente",
+        "close": "Fechar"
+    }
+}

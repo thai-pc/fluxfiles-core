@@ -1,0 +1,225 @@
+{
+    "_meta": {
+        "locale": "ja",
+        "name": "日本語",
+        "direction": "ltr",
+        "version": "1.20.0",
+        "authors": [
+            "FluxFiles Team"
+        ]
+    },
+    "common": {
+        "save": "保存",
+        "cancel": "キャンセル",
+        "delete": "削除",
+        "rename": "名前を変更",
+        "move": "移動",
+        "copy": "コピー",
+        "download": "ダウンロード",
+        "upload": "アップロード",
+        "search": "検索",
+        "close": "閉じる",
+        "confirm": "確認",
+        "loading": "読み込み中...",
+        "error": "エラー",
+        "success": "完了",
+        "yes": "はい",
+        "no": "いいえ",
+        "or": "または",
+        "clear": "クリア",
+        "select_file": "ファイルを選択",
+        "select_folder": "フォルダを選択",
+        "select_item": "1 件を選択",
+        "select_items": "{count} 件を選択",
+        "root": "ルート",
+        "selected": "選択済み",
+        "refresh": "更新"
+    },
+    "toolbar": {
+        "upload": "アップロード",
+        "new_folder": "新しいフォルダ",
+        "copy_url": "URLをコピー",
+        "grid_view": "グリッド表示",
+        "list_view": "リスト表示",
+        "search_hint": "ファイルとフォルダを検索...",
+        "theme_toggle": "ライト/ダーク切り替え",
+        "language": "言語"
+    },
+    "sidebar": {
+        "all_files": "すべてのファイル",
+        "recent": "最近使用したファイル",
+        "starred": "お気に入り",
+        "storage": "ストレージ",
+        "folders": "フォルダ",
+        "smart_filters": "スマートフィルター"
+    },
+    "quota": {
+        "storage": "ストレージ"
+    },
+    "file": {
+        "select": "選択",
+        "preview": "プレビュー",
+        "copy_url": "URLをコピー",
+        "presign_url": "署名付きURL",
+        "delete": "削除",
+        "move_to": "移動先...",
+        "items": "{count} 件",
+        "items_selected": "{count} 件を選択中",
+        "size": "サイズ",
+        "type": "種類",
+        "modified": "更新日時",
+        "disk": "ストレージ",
+        "path": "パス",
+        "name": "名前",
+        "no_files": "このフォルダにファイルはありません",
+        "files": "ファイル",
+        "folder": "フォルダ"
+    },
+    "upload": {
+        "drop_hint": "ここにファイルをドロップ、またはクリックしてアップロード",
+        "max_size": "1ファイルあたり最大 {size}",
+        "all_types": "すべてのファイル形式に対応",
+        "uploading": "アップロード中...",
+        "complete": "アップロード完了",
+        "error": "アップロード失敗：{message}",
+        "duplicate": "同名のファイルが存在します。このまま使用しますか？",
+        "quota_exceeded": "ストレージ容量を超えました（{used} / {max}）"
+    },
+    "metadata": {
+        "tab_info": "情報",
+        "tab_seo": "SEO",
+        "tab_ai": "AIタグ",
+        "tab_crop": "切り抜き",
+        "title": "タイトル",
+        "title_hint": "ファイル名とは異なるカスタムタイトル",
+        "alt_text": "代替テキスト",
+        "alt_hint": "スクリーンリーダーやSEO向けに画像の内容を説明",
+        "caption": "キャプション",
+        "caption_hint": "画像の下に表示される短い説明文",
+        "saving": "保存中...",
+        "saved": "保存しました"
+    },
+    "disk": {
+        "local": "ローカルディスク",
+        "s3": "Amazon S3",
+        "r2": "Cloudflare R2"
+    },
+    "folder": {
+        "new": "新しいフォルダ",
+        "name_hint": "フォルダ名：",
+        "create": "フォルダを作成",
+        "created": "フォルダを作成しました",
+        "create_title": "新しいフォルダを作成",
+        "create_desc": "新しいフォルダの名前を入力してください。",
+        "name_placeholder": "例：マイフォルダ",
+        "name_required": "フォルダ名を入力してください",
+        "invalid_chars": "フォルダ名に次の文字は使用できません: < > : \" / \\ | ? *"
+    },
+    "delete": {
+        "confirm_title": "確認",
+        "confirm_file": "\"{name}\" を完全に削除しますか？この操作は元に戻せません。",
+        "confirm_bulk": "{count} 件を削除しますか？この操作は取り消せません。",
+        "deleted": "削除しました",
+        "confirm_folder": "フォルダ \"{name}\" とすべてのファイルを完全に削除しますか？この操作は元に戻せません。",
+        "confirm_bulk_folders": "{count} 個のアイテム（{folders} 個のフォルダとその中身すべて）を完全に削除しますか？この操作は元に戻せません。"
+    },
+    "search": {
+        "placeholder": "名前、タイトル、代替テキストで検索...",
+        "results": "「{query}」の検索結果：{count} 件",
+        "no_results": "「{query}」に一致する結果はありません"
+    },
+    "variants": {
+        "title": "画像サイズ",
+        "original": "オリジナル",
+        "thumb": "サムネイル",
+        "medium": "中サイズ",
+        "large": "大サイズ",
+        "selected": "{size}を選択しました"
+    },
+    "error": {
+        "forbidden": "この操作を行う権限がありません",
+        "not_found": "見つかりません",
+        "quota_exceeded": "ストレージ容量を超えました（{used} / {max}）",
+        "upload_too_large": "ファイルが大きすぎます（最大 {max}）",
+        "ext_not_allowed": ".{ext} ファイル形式は許可されていません",
+        "generic": "問題が発生しました。もう一度お試しください。",
+        "system_path": "このファイルは操作できません",
+        "owner_only": "自分がアップロードしたファイルのみ変更できます",
+        "permission_denied": "この操作の権限がありません",
+        "disk_denied": "このディスクへのアクセスが拒否されました",
+        "name_exists": "同じ名前のファイルまたはフォルダが既に存在します",
+        "server_error": "サーバーエラー。もう一度お試しください。",
+        "upload_failed": "アップロードに失敗しました。もう一度お試しください",
+        "delete_failed": "このファイルを削除できませんでした",
+        "name_empty": "名前を入力してください",
+        "name_invalid": "名前に無効な文字が含まれています",
+        "name_same": "新しい名前は現在の名前と同じです",
+        "rate_limited": "リクエストが多すぎます。しばらくお待ちください",
+        "no_file": "アップロードするファイルが選択されていません",
+        "ext_dangerous": "このファイル形式はセキュリティ上の理由でブロックされています",
+        "ai_not_configured": "AIタグが設定されていません",
+        "ai_images_only": "AIタグは画像のみ利用可能です",
+        "token_invalid": "セッションが期限切れです。再読み込みしてください",
+        "token_missing": "認証が必要です",
+        "path_denied": "このパスへのアクセスが拒否されました",
+        "missing_param": "必要な情報が不足しています",
+        "invalid_json": "無効なリクエストデータ",
+        "origin_denied": "このオリジンからのアクセスが拒否されました"
+    },
+    "presign": {
+        "title": "署名付きURL",
+        "expires": "有効期限",
+        "minutes": "{n} 分",
+        "generate": "リンクを生成",
+        "copied": "リンクをコピーしました！"
+    },
+    "audit": {
+        "uploaded": "{name} をアップロードしました",
+        "deleted": "{name} を削除しました",
+        "moved": "{from} を {to} に移動しました",
+        "copied": "{from} を {to} にコピーしました"
+    },
+    "bulk": {
+        "move": "移動",
+        "copy_to_disk": "ディスクにコピー",
+        "move_to_disk": "ディスクに移動",
+        "download": "ダウンロード",
+        "move_to_folder": "フォルダに移動",
+        "destination": "移動先のパス",
+        "quick_pick": "クイック選択：",
+        "target_disk": "移動先ディスク",
+        "select_disk": "-- ディスクを選択 --"
+    },
+    "crop": {
+        "free": "自由切り抜き",
+        "replace": "元の画像を置き換え",
+        "save_copy": "コピーとして保存",
+        "saving": "保存中...",
+        "failed": "切り抜きに失敗しました：{message}"
+    },
+    "ai": {
+        "generate": "AIタグを生成",
+        "analyzing": "分析中...",
+        "tags": "タグ",
+        "no_tags": "AIタグはまだありません。「AIタグを生成」をクリックして画像を分析してください。",
+        "analyzing_image": "AIで画像を分析中...",
+        "failed": "AIタグの生成に失敗しました：{message}"
+    },
+    "copy": {
+        "copied": "URLをクリップボードにコピーしました"
+    },
+    "rename": {
+        "title": "名前を変更",
+        "description": "新しい名前を入力してください。",
+        "placeholder": "新しい名前",
+        "success": "名前を変更しました",
+        "error_empty": "名前を入力してください",
+        "error_chars": "名前に使えない文字: < > : \" / \\ | ? *"
+    },
+    "auth": {
+        "refreshing": "セッションを更新中...",
+        "expired": "セッションの有効期限が切れました。再読み込みまたは再認証してください。",
+        "retry": "再試行",
+        "close": "閉じる"
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "_meta": {
+        "locale": "tr",
+        "name": "Türkçe",
+        "direction": "ltr",
+        "version": "1.20.0",
+        "authors": [
+            "FluxFiles Team"
+        ]
+    },
+    "common": {
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "delete": "Sil",
+        "rename": "Yeniden adlandır",
+        "move": "Taşı",
+        "copy": "Kopyala",
+        "download": "İndir",
+        "upload": "Yükle",
+        "search": "Ara",
+        "close": "Kapat",
+        "confirm": "Onayla",
+        "loading": "Yükleniyor...",
+        "error": "Hata",
+        "success": "Tamam",
+        "yes": "Evet",
+        "no": "Hayır",
+        "or": "veya",
+        "clear": "Temizle",
+        "select_file": "Dosya seç",
+        "select_folder": "Klasör seç",
+        "select_item": "1 öğe seç",
+        "select_items": "{count} öğe seç",
+        "root": "Kök",
+        "selected": "seçili",
+        "refresh": "Yenile"
+    },
+    "toolbar": {
+        "upload": "Yükle",
+        "new_folder": "Yeni klasör",
+        "copy_url": "URL kopyala",
+        "grid_view": "Izgara görünümü",
+        "list_view": "Liste görünümü",
+        "search_hint": "Dosya ve klasör ara...",
+        "theme_toggle": "Açık/koyu tema değiştir",
+        "language": "Dil"
+    },
+    "sidebar": {
+        "all_files": "Tüm dosyalar",
+        "recent": "Son kullanılan",
+        "starred": "Yıldızlı",
+        "storage": "Depolama",
+        "folders": "Klasörler",
+        "smart_filters": "Akıllı filtreler"
+    },
+    "quota": {
+        "storage": "Depolama"
+    },
+    "file": {
+        "select": "Seç",
+        "preview": "Önizle",
+        "copy_url": "URL kopyala",
+        "presign_url": "Ön imzalı URL",
+        "delete": "Sil",
+        "move_to": "Taşı...",
+        "items": "{count} öğe",
+        "items_selected": "{count} seçildi",
+        "size": "Boyut",
+        "type": "Tür",
+        "modified": "Değiştirilme",
+        "disk": "Depolama",
+        "path": "Yol",
+        "name": "Ad",
+        "no_files": "Bu klasörde dosya yok",
+        "files": "Dosyalar",
+        "folder": "Klasör"
+    },
+    "upload": {
+        "drop_hint": "Dosyaları buraya sürükleyin veya yüklemek için tıklayın",
+        "max_size": "Dosya başına en fazla {size}",
+        "all_types": "Tüm türler kabul edilir",
+        "uploading": "Yükleniyor...",
+        "complete": "Yükleme tamamlandı",
+        "error": "Yükleme başarısız: {message}",
+        "duplicate": "Dosya zaten mevcut. Yine de kullanılsın mı?",
+        "quota_exceeded": "Depolama kotası aşıldı ({used} / {max})"
+    },
+    "metadata": {
+        "tab_info": "Bilgi",
+        "tab_seo": "SEO",
+        "tab_ai": "AI Etiketler",
+        "tab_crop": "Kırp",
+        "title": "Başlık",
+        "title_hint": "Dosya adından farklı özel başlık",
+        "alt_text": "Alternatif metin",
+        "alt_hint": "Ekran okuyucular ve SEO için görüntüyü tanımlayın",
+        "caption": "Altyazı",
+        "caption_hint": "Görüntünün altında gösterilen kısa açıklama",
+        "saving": "Kaydediliyor...",
+        "saved": "Kaydedildi"
+    },
+    "disk": {
+        "local": "Yerel disk",
+        "s3": "Amazon S3",
+        "r2": "Cloudflare R2"
+    },
+    "folder": {
+        "new": "Yeni klasör",
+        "name_hint": "Klasör adı:",
+        "create": "Klasör oluştur",
+        "created": "Klasör oluşturuldu",
+        "create_title": "Yeni klasör oluştur",
+        "create_desc": "Yeni klasör için bir ad girin.",
+        "name_placeholder": "ör. Klasörüm",
+        "name_required": "Lütfen bir klasör adı girin",
+        "invalid_chars": "Klasör adı şu karakterleri içeremez: < > : \" / \\ | ? *"
+    },
+    "delete": {
+        "confirm_title": "Onay",
+        "confirm_file": "\"{name}\" kalıcı olarak silinsin mi? Bu işlem geri alınamaz.",
+        "confirm_bulk": "{count} öğe silinsin mi? Bu işlem geri alınamaz.",
+        "deleted": "Silindi",
+        "confirm_folder": "\"{name}\" klasörü ve içindeki tüm dosyalar kalıcı olarak silinsin mi? Bu işlem geri alınamaz.",
+        "confirm_bulk_folders": "{count} öğe ({folders} klasör ve tüm içerikleri) kalıcı olarak silinsin mi? Bu işlem geri alınamaz."
+    },
+    "search": {
+        "placeholder": "Ad, başlık, alternatif metin ile ara...",
+        "results": "\"{query}\" için {count} sonuç",
+        "no_results": "\"{query}\" için sonuç bulunamadı"
+    },
+    "variants": {
+        "title": "Görsel boyutları",
+        "original": "Orijinal",
+        "thumb": "Küçük resim",
+        "medium": "Orta",
+        "large": "Büyük",
+        "selected": "{size} seçildi"
+    },
+    "error": {
+        "forbidden": "Bu işlem için yetkiniz yok",
+        "not_found": "Bulunamadı",
+        "quota_exceeded": "Depolama kotası aşıldı ({used} / {max})",
+        "upload_too_large": "Dosya çok büyük (maks. {max})",
+        "ext_not_allowed": ".{ext} dosya türüne izin verilmiyor",
+        "generic": "Bir hata oluştu. Lütfen tekrar deneyin.",
+        "system_path": "Bu dosya üzerinde işlem yapılamaz",
+        "owner_only": "Yalnızca yüklediğiniz dosyaları değiştirebilirsiniz",
+        "permission_denied": "Bu işlem için yetkiniz yok",
+        "disk_denied": "Bu diske erişim reddedildi",
+        "name_exists": "Bu isimde bir dosya veya klasör zaten mevcut",
+        "server_error": "Sunucu hatası. Lütfen tekrar deneyin.",
+        "upload_failed": "Yükleme başarısız. Lütfen tekrar deneyin",
+        "delete_failed": "Bu dosya silinemedi",
+        "name_empty": "İsim boş olamaz",
+        "name_invalid": "İsim geçersiz karakterler içeriyor",
+        "name_same": "Yeni isim mevcut isimle aynı",
+        "rate_limited": "Çok fazla istek. Lütfen bekleyin",
+        "no_file": "Yüklenecek dosya seçilmedi",
+        "ext_dangerous": "Bu dosya türü güvenlik nedeniyle engellendi",
+        "ai_not_configured": "AI etiketleme yapılandırılmamış",
+        "ai_images_only": "AI etiketleme yalnızca resimler için kullanılabilir",
+        "token_invalid": "Oturum süresi doldu. Sayfayı yenileyin",
+        "token_missing": "Kimlik doğrulama gerekli",
+        "path_denied": "Bu yola erişim reddedildi",
+        "missing_param": "Gerekli bilgi eksik",
+        "invalid_json": "Geçersiz istek verisi",
+        "origin_denied": "Bu kaynaktan erişim reddedildi"
+    },
+    "presign": {
+        "title": "Ön imzalı URL",
+        "expires": "Süre",
+        "minutes": "{n} dakika",
+        "generate": "Bağlantı oluştur",
+        "copied": "Bağlantı kopyalandı!"
+    },
+    "audit": {
+        "uploaded": "{name} yüklendi",
+        "deleted": "{name} silindi",
+        "moved": "{from}, {to} konumuna taşındı",
+        "copied": "{from}, {to} konumuna kopyalandı"
+    },
+    "bulk": {
+        "move": "Taşı",
+        "copy_to_disk": "Diske kopyala",
+        "move_to_disk": "Diske taşı",
+        "download": "İndir",
+        "move_to_folder": "Klasöre taşı",
+        "destination": "Hedef yol",
+        "quick_pick": "Hızlı seçim:",
+        "target_disk": "Hedef disk",
+        "select_disk": "-- Disk seçin --"
+    },
+    "crop": {
+        "free": "Serbest",
+        "replace": "Orijinali değiştir",
+        "save_copy": "Kopya olarak kaydet",
+        "saving": "Kaydediliyor...",
+        "failed": "Kırpma başarısız: {message}"
+    },
+    "ai": {
+        "generate": "AI etiketleri oluştur",
+        "analyzing": "Analiz ediliyor...",
+        "tags": "Etiketler",
+        "no_tags": "Henüz AI etiketi yok. Bu görüntüyü analiz etmek için \"AI etiketleri oluştur\"a tıklayın.",
+        "analyzing_image": "Görüntü AI ile analiz ediliyor...",
+        "failed": "AI etiketleme başarısız: {message}"
+    },
+    "copy": {
+        "copied": "URL panoya kopyalandı"
+    },
+    "rename": {
+        "title": "Yeniden Adlandır",
+        "description": "Yeni bir ad girin.",
+        "placeholder": "Yeni ad",
+        "success": "Yeniden adlandırıldı",
+        "error_empty": "Lütfen bir ad girin",
+        "error_chars": "Ad şu karakterleri içeremez: < > : \" / \\ | ? *"
+    },
+    "auth": {
+        "refreshing": "Oturum yenileniyor...",
+        "expired": "Oturumunuz sona erdi. Lütfen yeniden yükleyin veya tekrar kimlik doğrulaması yapın.",
+        "retry": "Tekrar dene",
+        "close": "Kapat"
+    }
+}
